@@ -1,6 +1,6 @@
 # authentication-example
 
-Autenticação simples utilizando Quarkus e uma imagem Docker do Keycloack, utilizando três perfis de usuário (Admin, Aluno, Professor).
+Autenticação simples utilizando Quarkus e uma imagem Docker do Keycloack, utilizando três perfis de usuário (roles) (Admin, Aluno, Professor).
 
 Também se utiliza uma simples interface para simulação de autenticação do usuário.
 
