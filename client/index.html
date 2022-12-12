@@ -15,27 +15,27 @@
     <section class="section">
         <div class="container">
             <h1 class="title">
-                LOGIN - KEYCLOACK
+                LOGIN - KEYCLOACK E OPEN ID
             </h1>
             <div class="buttons">
-                <button class="button is-primary" onclick="keycloak.login()">Login</button>
-                <button class="button is-info" onclick="output(keycloak.tokenParsed)">Show Access Token</button>
-                <button class="button is-warning" onclick="keycloak.logout()">Logout</button>
+                <button class="button is-primary" onclick="keycloak.login()">Logar</button>
+                <button class="button is-info" onclick="output(keycloak.tokenParsed)">Visualizar token de acesso</button>
+                <button class="button is-warning" onclick="keycloak.logout()">Sair</button>
             </div>
             <p class="subtitle">
                 <strong id="username"></strong>
             </p>
             <nav class="panel">
                 <p class="panel-heading">
-                    Events
+                    Evento
                 </p>
                 <div class="panel-block" id="events"></div>
             </nav>
-            <label class="label">API Request</label>
+            <label class="label">Requisição - API</label>
             <div class="field is-grouped">
                 <div class="control is-expanded">
                     <!-- url localhost do quarkus -->
-                    <input class="input" type="text" id="url" value="http://localhost:8082/hello/"
+                    <input class="input" type="text" id="url" value="http://localhost:8082/"
                         placeholder="Type API URL">
                 </div>
                 <div class="control">
@@ -48,7 +48,7 @@
                 <div class="control">
                     <label class="checkbox">
                         <input type="checkbox" id="include_access_token">
-                        Include Access Token
+                        Incluir token de acesso
                     </label>
                 </div>
             </div>
